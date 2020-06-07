@@ -1,0 +1,68 @@
+<!DOCTYPE>
+<html lang="es">
+<head>
+<title>Programación web</title>
+<meta http-equiv="Content-Type" content="text/html" charset=UTF-8 />
+<meta name="descripcon" content="Proyecto final de la materia Programación Web" />
+<meta name="keywords" content="HTML5 y CSS3" />
+
+	<link  rel="icon"   href="../multimedia/favicon.png" type="image/png" />
+	<link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+<div id="agrupar">
+	<center><header  id="cabecera">
+	<img src="../multimedia/LOGOITZO.png" id="logoita">
+	<img src="../multimedia/Logo-TecNM-2017.png" id="logotecnm">	
+	<center><h1 class="titulo">INSTITUTO TECNOLÓGICO DE LA ZONA OLMECA
+	<br><br>Programación Web</h1></center>
+	<script>
+          function accion1(){
+            window.location.href="../index.html";
+          }
+		  function musica(){
+		    window.location.href="rolas.html";
+		  }
+		  function biblio(){
+		    window.location.href="biblio.html";
+		  }
+        </script>
+		
+
+	</header></center>
+<nav>
+    <ul id="menu">
+     <li onclick="accion1()">Inicio</li>
+      <li onclick="musica()">Música</li>
+      <li onclick="biblio()">Bibliografía</li>
+    </ul>
+  </nav>
+   <center><section>
+    <article class="caja">
+      <header>
+        <h1>Música</h1>	
+      </header>
+ <div id="reproductor">  
+		<audio controls="controls"> 
+	<source src="Héroe de Leyenda.mp3" width="263" height="210" type="audio/mp3"></source>
+	<source src="Rod Stewart - Da Ya Think I'm Sexy.mp3" width="210" height="186" type="audio/mp3"></source>
+    <source src="Gladiators - Rich Man Poor Man.mp3" width="210" height="186" type="audio/mp3"></source>
+    
+		</audio> 
+ </div> 
+      <footer>
+      </footer>
+    </article>
+  </section></center>
+  <footer id="pie1">
+    5to Ingeniería en Sistemas Computacionales.
+	<br>
+	ALUMNA:
+	<br><br>
+	
+	<li>MARIA ANTONIA HERNANDEZ BAYONA</li>
+
+	</footer>
+</div>
+</body>
+</html>
